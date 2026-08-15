@@ -2,7 +2,7 @@
 
 Software Developer focused on business applications, backend systems, APIs, automation and applied AI.
 
-I work primarily with C#/.NET, Python, FastAPI, React and SQL, with an interest in building reliable software for real business workflows. My projects cover backend development, full-stack applications, AI-assisted automation, data processing and machine learning.
+I work primarily with C#/.NET, Python, FastAPI, React and SQL, with an interest in building reliable software for real business workflows. My projects cover backend development, full-stack applications, real-time systems, AI-assisted automation, data processing and machine learning.
 
 ## Core Technologies
 
@@ -11,39 +11,44 @@ I work primarily with C#/.NET, Python, FastAPI, React and SQL, with an interest 
 - React / JavaScript / Node.js
 - SQL / PostgreSQL / MongoDB
 - REST APIs / JWT / OAuth
-- Docker
+- Docker / Docker Compose
+- GitHub Actions / CI
 - Applied AI / LLM integrations
 - Machine Learning / Data Processing
 
 ## Selected Projects
 
 ### Auth Microservice
-ASP.NET Core 8 authentication service with PostgreSQL, Entity Framework Core, JWT access and refresh tokens, Google OAuth2, rate limiting, structured logging, health checks and Docker support.
+ASP.NET Core 8 authentication service with PostgreSQL, Entity Framework Core, JWT access and refresh tokens, Google OAuth2, rate limiting, structured logging, health checks, Docker, automated xUnit tests and GitHub Actions CI.
 
 [View repository](https://github.com/jospindev-stack/auth-microservice)
 
 ### Job Application Tracker AI
-Full-stack application built with React, FastAPI and MongoDB for tracking job applications, analyzing job descriptions and generating AI-assisted interview preparation.
+Full-stack application built with React, FastAPI and MongoDB for tracking job applications, analyzing job descriptions and generating AI-assisted interview preparation. Includes automated backend tests, GitHub Actions CI and a Docker Compose stack with Nginx, FastAPI and MongoDB.
 
 [View repository](https://github.com/jospindev-stack/job-application-tracker-ai)
 
+### Realtime Kanban Board
+Collaborative task management application built with React, Express, MongoDB and Socket.io, featuring JWT authentication, real-time board synchronization, online presence and drag-and-drop workflows. Backend authentication and Socket.io behavior are covered by automated tests and GitHub Actions CI.
+
+[View repository](https://github.com/jospindev-stack/realtime_kanban_board)
+
 ### Smart Invoice Extractor
-FastAPI and Streamlit application that extracts structured data from PDF invoices and converts it into validated JSON for downstream business workflows.
+FastAPI application that extracts structured data from PDF invoices and converts it into validated JSON for downstream business workflows. Includes mocked AI integration tests, PDF extraction tests and GitHub Actions CI.
 
 [View repository](https://github.com/jospindev-stack/smart-invoice-extractor)
 
-### AI Dashboard Builder
-React and Node.js application that converts natural-language requirements into interactive business dashboards and structured visualizations.
-
-[View repository](https://github.com/jospindev-stack/ai-dashboard-builder)
-
 ## Additional Work
 
+- AI Dashboard Builder: React and Node.js application for generating interactive business dashboards from natural-language requirements
 - AI Meeting Summarizer: speech-to-text and structured meeting analysis with FastAPI, Whisper and LLMs
-- Realtime Kanban Board: real-time task collaboration with React, Node.js, Socket.io and MongoDB
 - Cooking Cameroon: browser-based PWA game built with Vanilla JavaScript and a custom reactive state store
 - ML Churn Prediction: end-to-end machine learning pipeline with Random Forest, XGBoost and Streamlit
 - CBIR-A: content-based image retrieval using computer vision descriptors and similarity metrics
+
+## Engineering Practices
+
+Across my main projects, I use automated testing, CI pipelines, feature branches, pull requests, code review workflows, dependency isolation and containerized development where appropriate.
 
 ## Portfolio
 
@@ -51,4 +56,4 @@ React and Node.js application that converts natural-language requirements into i
 
 ## Current Focus
 
-I am currently strengthening my software engineering practices around automated testing, CI/CD, cloud platforms and production-ready application architecture.
+I am currently deepening my cloud, DevOps and production architecture skills while continuing to build software around business workflows, automation and applied AI.
