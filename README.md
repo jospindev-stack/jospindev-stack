@@ -40,11 +40,10 @@ FastAPI application that extracts structured data from PDF invoices and converts
 
 ## Additional Work
 
-- AI Dashboard Builder: React and Node.js application for generating interactive business dashboards from natural-language requirements
-- AI Meeting Summarizer: speech-to-text and structured meeting analysis with FastAPI, Whisper and LLMs
+- AI Meeting Summarizer: FastAPI and Streamlit application using Whisper and LLMs for speech-to-text, structured meeting summaries, decisions and action items, with Docker, pytest coverage and GitHub Actions CI
+- AI Dashboard Builder: React and Express application for generating and refining interactive business dashboards from natural-language requirements, with mocked AI integration tests and GitHub Actions CI
 - Cooking Cameroon: browser-based PWA game built with Vanilla JavaScript and a custom reactive state store
 - ML Churn Prediction: end-to-end machine learning pipeline with Random Forest, XGBoost and Streamlit
-- CBIR-A: content-based image retrieval using computer vision descriptors and similarity metrics
 
 ## Engineering Practices
 
